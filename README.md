@@ -6,7 +6,7 @@ The dataset is fully synthetic — KTP cards use GAN-generated faces, and all do
 
 ## Demo
 
-[![YouTube Demo](https://img.shields.io/badge/YouTube-Demo-red?logo=youtube)](https://youtu.be/YOUR_VIDEO_ID)  
+[![YouTube Demo](https://img.shields.io/badge/YouTube-Demo-red?logo=youtube)](https://youtu.be/M1L2e7sYLoY)  
 [![Kaggle Notebook](https://img.shields.io/badge/Kaggle-Synthetic_Dataset_Generator-blue?logo=kaggle)](https://www.kaggle.com/code/jihadakbr/ocr-style-gan-dataset-generator)
 
 ## How It Works
