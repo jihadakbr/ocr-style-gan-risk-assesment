@@ -1,4 +1,4 @@
-# OCR StyleGAN — SME Lending Risk Assessment
+# OCR + StyleGAN2 — SME Lending Risk Assessment
 
 An automated document processing pipeline for Indonesian SME lending. Applicants submit phone photos of their documents, and the system extracts structured data via OCR, verifies identity with face matching, and computes a credit risk score.
 
