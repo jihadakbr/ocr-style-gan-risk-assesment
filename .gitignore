@@ -1,0 +1,19 @@
+# Ignore everything
+*
+
+# Allow tracked files and folders
+!.gitignore
+!README.md
+!requirements.txt
+!src/
+!src/**
+!data/
+data/*
+!data/applicant_result/
+!data/applicant_result/**
+!data/evaluation_results/
+!data/evaluation_results/**
+
+# Ignore compiled Python files inside src/
+src/**/__pycache__/
+src/**/*.py[cod]

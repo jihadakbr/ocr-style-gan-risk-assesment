@@ -1,0 +1,76 @@
+{
+  "applicant": "applicant_0009",
+  "corrected": false,
+  "timestamp": "2026-03-02T07:59:05.702135+07:00",
+  "risk": {
+    "score": 10,
+    "credit_score": 90,
+    "level": "LOW RISK",
+    "breakdown": {
+      "identity_verification": 30,
+      "financial_health": 30,
+      "business_viability": 30
+    }
+  },
+  "ekyc": {
+    "ktp_fields": {
+      "nik": "8015845805737840",
+      "nama": "MALANASHIRUDDIN",
+      "tempat_tgl_lahir": "Pekanbaru.18-05-1973",
+      "jenis_kelamin": "PEREMPUAN",
+      "alamat": "GG.KEBONJATINO.286",
+      "rt_rw": "019/007",
+      "kelurahan": "VILLECIMAHI",
+      "kecamatan": "TUAL",
+      "agama": "KRISTEN",
+      "status_perkawinan": "CERAIHIDUP",
+      "pekerjaan": "PNS",
+      "kewarganegaraan": "WNI",
+      "berlaku_hingga": "SEUMUR HIDUP"
+    },
+    "ocr_raw_text": "PROVINSIJAWA TIMUR\nKOTA TUAL\nNIK 8015845805737840\nNama :MALANASHIRUDDIN\nTempat/Tgl Lahir Pekanbaru.18-05-1973\nJenis Kelamin :PEREMPUAN\nAlamat GG.KEBONJATINO.286\nRT/RW 019/007\nKel/Desa :VILLECIMAHI\nKecamatan :TUAL\nAgama :KRISTEN\nStatus Perkawinan :CERAIHIDUP\nPekerjaan :PNS\nKewarganegaraan : WNI\nBerlaku Hingga :SEUMUR HIDUP",
+    "face_match": {
+      "verified": true,
+      "distance": 0.1351,
+      "threshold": 0.68,
+      "model": "VGG-Face"
+    }
+  },
+  "financial": {
+    "header": {
+      "bank_name": "BANK BNP",
+      "account_holder": "MALA NASHIRUDDIN",
+      "account_number": "7111434048",
+      "period": "6 Bulan Terakhir",
+      "address": "GG. KEBONJATI NO. 286"
+    },
+    "metrics": {
+      "total_credit": 40563687,
+      "total_debit": 348172,
+      "avg_monthly_income": 40563687,
+      "net_cash_flow": 40215515,
+      "transaction_count": 8
+    },
+    "transaction_count": 8
+  },
+  "business": {
+    "header": {
+      "business_name": "TOKO KELONTONG NASHIRUDDIN",
+      "business_type": "Warung Makan",
+      "owner": "MALA NASHIRUDDIN"
+    },
+    "pnl": {
+      "pendapatan": 810023824.0,
+      "hpp": 386058349.0,
+      "laba_kotor": 423965475.0,
+      "beban_operasional": 160299186.0,
+      "laba_bersih": 263666289.0,
+      "profit_margin": 32.6
+    },
+    "health_metrics": {
+      "revenue_months_detected": 10,
+      "has_profit": true,
+      "profit_margin_pct": 32.6
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "applicant": "applicant_0007",
+  "corrected": false,
+  "timestamp": "2026-03-02T07:57:47.602807+07:00",
+  "risk": {
+    "score": 0,
+    "credit_score": 100,
+    "level": "LOW RISK",
+    "breakdown": {
+      "identity_verification": 30,
+      "financial_health": 40,
+      "business_viability": 30
+    }
+  },
+  "ekyc": {
+    "ktp_fields": {
+      "nik": "4742530901765277",
+      "nama": "DR.EKOARYANI",
+      "tempat_tgl_lahir": "KotaAdministrasi Jakarta Pusat,09-01-197",
+      "jenis_kelamin": "LAKI-LAKI",
+      "alamat": "GANGH.JMAEMUNAH NO.6",
+      "rt_rw": "004/004",
+      "kelurahan": "VILLEKOTAADMINISTRASI JAKARTAPUSAT",
+      "kecamatan": "SAMARINDA",
+      "agama": "BUDDHA",
+      "status_perkawinan": "BELUMKAWIN",
+      "pekerjaan": "WIRASWASTA",
+      "kewarganegaraan": "WNI",
+      "berlaku_hingga": "SEUMURHIDUP"
+    },
+    "ocr_raw_text": "PROVINSIBALI\nKOTABANJAR\nNIK 4742530901765277\nNama DR.EKOARYANI\nTempat/Tgl Lahir :KotaAdministrasi Jakarta Pusat,09-01-197\nJenis Kelamin :LAKI-LAKI\nAlamat GANGH.JMAEMUNAH NO.6\nRT/RW 004/004\nKel/Desa :VILLEKOTAADMINISTRASI JAKARTAPUSAT\nKecamatan :SAMARINDA\nAgama BUDDHA\nStatus Perkawinan :BELUMKAWIN\nPekerjaan :WIRASWASTA\nKewarganegaraan :WNI\nBerlaku Hingga :SEUMURHIDUP",
+    "face_match": {
+      "verified": true,
+      "distance": 0.6632,
+      "threshold": 0.68,
+      "model": "VGG-Face"
+    }
+  },
+  "financial": {
+    "header": {
+      "bank_name": "BANK BTK",
+      "account_holder": "DR. EKO ARYANI",
+      "account_number": "5027818352",
+      "period": "6 Bulan Terakhir",
+      "address": "GANG H.J MAEMUNAH NO. 6"
+    },
+    "metrics": {
+      "total_credit": 153820061,
+      "total_debit": 57814106,
+      "avg_monthly_income": 51273354,
+      "net_cash_flow": 96005955,
+      "transaction_count": 60
+    },
+    "transaction_count": 60
+  },
+  "business": {
+    "header": {
+      "business_name": "BENGKEL MOTOR ARYANI",
+      "business_type": "Toko Kelontong",
+      "owner": "DR.EKO ARYANI"
+    },
+    "pnl": {
+      "pendapatan": 509639176.0,
+      "hpp": 211378902.0,
+      "laba_kotor": 298260274.0,
+      "beban_operasional": 69483464.0,
+      "laba_bersih": 228776810.0,
+      "profit_margin": 44.9
+    },
+    "health_metrics": {
+      "revenue_months_detected": 10,
+      "has_profit": true,
+      "profit_margin_pct": 44.9
+    }
+  }
+}
